@@ -25,6 +25,7 @@
 
   <link rel="stylesheet" href="./template/css/style.css">
 
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -61,14 +62,13 @@
         <div class="row align-items-center">
 
           <div class="col-6 col-md-3 col-xl-4  d-block">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">한준에프알</a></h1>
+            <h1 class="mb-0 site-logo"><a href="#home-section" class="text-black h2 mb-0"><img src="./imgs/logo.png"></img></a></h1>
           </div>
 
           <div class="col-12 col-md-9 col-xl-8 main-menu">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#hjfr-greetings-section" class="nav-link">인사말</a></li>
                 <li><a href="#hjfr-history-section" class="nav-link">연혁</a></li>
                 <li class="has-children">
@@ -179,7 +179,108 @@
     </div>
     <!-- #hjfr-greetings-section 인사말 end  -->
 
+    <!-- #hjfr-greetings-section 연혁 - line start  -->
+    <div class="site-section bg-image2" id="hjfr-history-section" style="background-image: url('./imgs/history_line.png');">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 text-white">연혁</h2>
+          </div>
+        </div>   
+      </div>
+    </div>
+    <!-- #hjfr-greetings-section 연혁 -line end  -->
 
+    <!-- #hjfr-history-section-content 연혁 - text start  -->
+    <div class="site-section" id="hjfr-history-section-content">
+      <div class="container">
+        <img src="./imgs/history.png" />
+      </div> <!-- .container -->
+    </div>
+    <!-- #hjfr-history-section-content 연혁 - text end  -->
+
+    <!-- #hjfr-group-section 그룹소개 - line start  -->
+    <div class="site-section bg-image2" id="hjfr-group-section" style="background-image: url('./imgs/group_line.png');">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 text-white">그룹소개</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #hjfr-group-section 그룹소개 - line end  -->
+
+    <!-- #hjfr-group-section-content 그룹소개 - content start  -->
+    <div class="site-section" id="hjfr-group-section-content">
+      <div class="container">
+        <div class="row mb-5 justify-content-center group-item-box" data-aos="fade-up">
+          <div class="col-2 "><img src="./imgs/group_item_disuse.png"></div>
+          <div class="col-4 ">
+            <div class="row mb-5"> 
+              <div class="col-12 text-color-title"><div class="col-12" style="padding-left: 0px;">한준에프알</div></div>
+              <div class="col-12 text-color-title" style="font-size: 1.4rem;">불용자재 사업</div>
+              <div class="col-12"><p class="gorup-item-content">한국전력 배전공사에서 발생하는 폐플라스틱과 폐전주를 수집 운반 처리하여 재활용 및 생산/판매하고 있습니다.</p></div>
+              <div class="col-12"><div class="group-item-more" onclick="javascript:goGroupItem('disuse');">더 알아보기 ></div></div>
+            </div>
+          </div>
+          <div class="col-2 "><img src="./imgs/group_item_lng.png"></div>
+          <div class="col-4 ">
+            <div class="row mb-5">
+              <div class="col-12 text-color-title"><div class="col-12" style="padding-left: 0px;">한준에프알</div></div>
+              <div class="col-12 text-color-title" style="font-size: 1.4rem;">LNG 운송 사업</div>
+              <div class="col-12"><p class="gorup-item-content">한국가스공사 LNG기지로부터 전국의 산업체, 항만 및 휴양시설에 탱크로리를 이용하여 액화천연가스(LNG)를 운송, 공급하고 있습니다. 
+                또한 특수장비(저상로우베드, 모들, 롱트레일러 및 평판)을 구비하여 다양하고 특수한 운송분야의 운송경험을 가지고 있습니다.</p></p></div>
+              <div class="col-12"><div class="group-item-more" onclick="javascript:goGroupItem('lng');">더 알아보기 ></div></div>  
+            </div>
+          </div>
+        </div> <!-- .group-item-box -->
+
+        <div class="row mb-5 justify-content-center group-item-box" data-aos="fade-up">
+          <div class="col-2 "><img src="./imgs/group_item_sun.png"></div>
+          <div class="col-4 ">
+            <div class="row mb-5"> 
+              <div class="col-12 text-color-title"><div class="col-12" style="padding-left: 0px;">한준에프알</div></div>
+              <div class="col-12 text-color-title" style="font-size: 1.4rem;">태양광 발전 및 전기공 사업</div>
+              <div class="col-12"><p class="gorup-item-content"></p></div>
+              <div class="col-12"><div class="group-item-more" onclick="javascript:goGroupItem('sun');">더 알아보기 ></div></div>
+            </div>
+          </div>
+          <div class="col-2 "><img src="./imgs/group_item_water.png"></div>
+          <div class="col-4 ">
+            <div class="row mb-5">
+              <div class="col-12 text-color-title"><div class="col-12" style="padding-left: 0px;">태림산업</div></div>
+              <div class="col-12 text-color-title" style="font-size: 1.4rem;">수처리 사업</div>
+              <div class="col-12"><p class="gorup-item-content">태림산업은 수 처리/프로세스/환경약품 제조 및 판매 수처리 장치/설비 그리고 수 처리 플랜트 컨설팅과 OEM 사업을 하고 있습니다.</p></div>
+              <div class="col-12"><div class="group-item-more" onclick="javascript:goGroupItem('water');">더 알아보기 ></div></div>  
+            </div>
+          </div>
+        </div> <!-- .group-item-box -->
+
+        <div class="row mb-5 justify-content-center group-item-box" data-aos="fade-up">
+          <div class="col-2 "><img src="./imgs/group_item_oil.png"></div>
+          <div class="col-4 ">
+            <div class="row mb-5"> 
+              <div class="col-12 text-color-title"><div class="col-12" style="padding-left: 0px;">켐에로우 루보</div></div>
+              <div class="col-12 text-color-title" style="font-size: 1.4rem;">윤활유 사업</div>
+              <div class="col-12"><p class="gorup-item-content">자연과 인류를 생각하는 친환경윤활유로 보다 안전하고 깨끗한 내일을 추구합니다.</p></div>
+              <div class="col-12"><div class="group-item-more" onclick="javascript:goGroupItem('oil');">더 알아보기 ></div></div>
+            </div>
+          </div>
+          <div class="col-2 "><img src="./imgs/group_item_water.png"></div>
+          <div class="col-4 ">
+            <div class="row mb-5">
+              <div class="col-12 text-color-title"><div class="col-12" style="padding-left: 0px;">규원에너지</div></div>
+              <div class="col-12 text-color-title" style="font-size: 1.4rem;">목재 펠릿 사업</div>
+              <div class="col-12"><p class="gorup-item-content">주식화사 규원에너지는 목재(병해충목, 산불피해목 등)을 재활용하는 친환경 "미이용바이오매스" 목재펠릿을 제조/판매하는 회사입니다.</p></div>
+              <div class="col-12"><div class="group-item-more" onclick="javascript:goGroupItem('wood');">더 알아보기 ></div></div>  
+            </div>
+          </div>
+        </div> <!-- .group-item-box -->
+
+      </div> <!-- .container -->
+    </div>
+    <!-- #hjfr-group-section-content 그룹소개 - content end  -->
 
     <div class="site-section" id="features-section">
       <div class="container">
@@ -635,12 +736,12 @@
     </div>
 
     <!-- #hjfr-map-section 지도 start -->
-    <div class="site-section bg-light" id="hjfr-map-section">
+    <div class="site-section" id="hjfr-map-section">
       <div class="container">
 
         <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
           <div class="col-7 text-center mb-4">
-            <h2 class="section-title">오시는 길</h2>
+            <h2 class="section-title text-color-title">오시는 길</h2>
           </div>
         </div>
 
@@ -668,14 +769,14 @@
           <div class="row mb-2">
             <div class="col-3"></div>
             <div class="col-9 text-left">
-              <span class="hjfr-map-section-contents-title"><b>주소</b></span>&nbsp;
+              <span class="text-color-title"><b>주소</b></span>&nbsp;
               서울시 영등포구 경인로 775, 2동 602호 (에이스하이테크시티)
             </div>
           </div>
           <div class="row mb-2">
             <div class="col-3"></div>
             <div class="col-9 text-left">
-              <span class="hjfr-map-section-contents-title"><b>대중교통</b></span>&nbsp;
+              <span class="text-color-title"><b>대중교통</b></span>&nbsp;
               2호선 문래역 6번출구 도보 5분
             </div>
           </div>
@@ -683,14 +784,14 @@
           <div class="row mb-2">
             <div class="col-3"></div>
             <div class="col-9 text-left">
-              <span class="hjfr-map-section-contents-title"><b>전화</b></span>&nbsp;
+              <span class="text-color-title"><b>전화</b></span>&nbsp;
               02) 368 2000
             </div>
           </div>
           <div class="row mb-2">
             <div class="col-3"></div>
             <div class="col-9 text-left">
-              <span class="hjfr-map-section-contents-title"><b>FAX</b></span>&nbsp;
+              <span class="text-color-title"><b>FAX</b></span>&nbsp;
               02) 368 2019
             </div>
           </div>
@@ -847,6 +948,7 @@
 
 
   <script src="./template/js/main.js"></script>
+  <script src="./js/main.js"></script>
 
 </body>
 
