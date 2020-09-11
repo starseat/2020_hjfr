@@ -1,3 +1,19 @@
-.text-color-title { color: #53898a; font-weight: bold; }
-.gorup-item-content { margin-top: 10px; margin-bottom: 10px; }
-.group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
+
+#hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); }
+.hjfr-nav-sub { width: 240px !important; }
+
+.hjfr-text-color { color: #53898a; }
+.hjfr-text-color-title { color: #53898a; font-weight: bold; }
+
+#hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; }
+.hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
+.hjfr-main-title { font-size: 3.2rem; margin-bottom: 0 !important; }
+.hjfr-text-color-contents { padding-left: 15px; margin-bottom: 0 !important; }
+
+#hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
+#hjfr-greetings-section * { color: white; }
+.hjfr-greetings-section-contents { font-size: 1.25rem }
+.hjfr-group-item-content { margin-top: 16px; margin-bottom: 16px; }
+.hjfr-group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
+
+.hjfr-map-section-contents { text-align: center !important; }
