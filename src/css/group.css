@@ -1,0 +1,80 @@
+#hjfr-navbar-section { background-color: white; }
+.hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
+
+.hjfr-group-text-color { color: white; }
+.hjfr-group-text-color-green { color: #53898a; }
+.hjfr-group-text-color-gray { color:#777; }
+.hjfr-group-text-bold { font-weight: bold; }
+
+.hjfr-disuse-section-img-box { margin: 0 auto; }
+.hjfr-disuse-section-img { text-align: center; width: 100%; }
+
+
+/* 불용자재 - disuse */
+#hjfr-disuse-section-1 { background-image: url("../imgs/sub/disuse/1.jpg"); background-size: cover; }
+#hjfr-disuse-text-1-1 { font-size: 2.4rem; margin-bottom: 0 !important; }
+#hjfr-disuse-text-1-2 { font-size: 4.6rem; margin-bottom: 0 !important; }
+
+#hjfr-disuse-section-2 { background-image: url("../imgs/sub/disuse/2.jpg"); background-size: cover; }
+#hjfr-disuse-text-2-1 { font-size: 4rem; margin-bottom: 0 !important; }
+#hjfr-disuse-text-2-2 { font-size: 2rem; margin-bottom: 0 !important; }
+
+/* #hjfr-disuse-section-3 { margin: 0 auto; }
+#hjfr-disuse-section-3 * { text-align: center; } */
+
+#hjfr-disuse-section-4 { background-image: url("../imgs/sub/disuse/4.jpg"); background-size: cover; }
+#hjfr-disuse-text-4-1 { font-size: 4rem; margin-bottom: 0 !important; }
+#hjfr-disuse-text-4-2 { font-size: 2rem; margin-bottom: 0 !important; }
+
+/* #hjfr-disuse-section-5 { margin: 0 auto; }
+#hjfr-disuse-section-5 * { text-align: center; } */
+
+#hjfr-disuse-section-6 { background-image: url("../imgs/sub/disuse/6.jpg"); background-size: cover; }
+#hjfr-disuse-text-6-1 { font-size: 4rem; margin-bottom: 0 !important; }
+#hjfr-disuse-text-6-2 { font-size: 2rem; margin-bottom: 0 !important; }
+
+/* #hjfr-disuse-section-7 { margin: 0 auto; }
+#hjfr-disuse-section-7 * { text-align: center; } */
+
+
+
+/* 윤활유 - oil */
+#hjfr-oil-section-1 { background-image: url("../imgs/sub/oil/1.jpg"); background-size: cover; }
+#hjfr-oil-text-1-1 { font-size: 3.6rem; margin-bottom: 0 !important; }
+#hjfr-oil-text-1-2 { font-size: 4.6rem; margin-bottom: 0 !important; }
+#hjfr-oil-text-1-3 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+.hjfr-oil-section-img { width: 100%; margin: 0; }
+.hjfr-oil-section-img-comment-wrap { position: relative; }
+.hjfr-oil-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+#hjfr-oil-text-2-1 { font-size: 2.4rem; margin-bottom: 0 !important; }
+#hjfr-oil-text-2-2 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+#hjfr-oil-section-3 { background-image: url("../imgs/sub/oil/3.jpg"); background-size: cover; }
+#hjfr-oil-text-3-1 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+#hjfr-oil-text-4-1 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+#hjfr-oil-section-5 { background-image: url("../imgs/sub/oil/5.jpg"); background-size: cover; }
+#hjfr-oil-text-5-1 { font-size: 1.4rem; margin-bottom: 0 !important; }
+#hjfr-oil-text-5-2 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+
+
+/* 목재 펠릿 - wood */
+#hjfr-wood-section-1 { background-image: url("../imgs/sub/wood/1.jpg"); background-size: cover; }
+#hjfr-wood-text-1-1 { font-size: 2.4rem; margin-bottom: 0 !important; }
+#hjfr-wood-text-1-2 { font-size: 4.6rem; margin-bottom: 0 !important; }
+
+.hjfr-wood-section-img { width: 100%; margin: 0; }
+.hjfr-wood-section-img-comment-wrap { position: relative; }
+.hjfr-wood-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+#hjfr-wood-text-2-1 { font-size: 2.4rem; margin-bottom: 0 !important; }
+#hjfr-wood-text-2-2 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+#hjfr-wood-section-3 { background-image: url("../imgs/sub/wood/3.jpg"); background-size: cover; }
+#hjfr-wood-text-3-1 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+#hjfr-wood-text-4-1 { font-size: 1.4rem; margin-bottom: 0 !important; }

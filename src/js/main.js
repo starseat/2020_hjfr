@@ -1,5 +1,5 @@
 function goGroupItem(item) {
-    alert('goGroupItem - ' + item);
+    location.href = './' + item + '.html';
 }
 
 $(document).ready(function() {
