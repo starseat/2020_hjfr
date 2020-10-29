@@ -107,3 +107,27 @@
 #hjfr-lng-section-7 { background-image: url("../imgs/sub/lng/7.jpg"); background-size: cover; }
 #hjfr-lng-text-7-1 { font-size: 4rem; margin-bottom: 0 !important; }
 #hjfr-lng-text-7-2 { font-size: 2rem; margin-bottom: 0 !important; }
+
+
+
+/* 태양광 사업 - sun */
+#hjfr-sun-section-1 { background-image: url("../imgs/sub/sun/1.jpg"); background-size: cover; }
+#hjfr-sun-text-1-1 { font-size: 2.4rem; margin-bottom: 0 !important; }
+#hjfr-sun-text-1-2 { font-size: 4.6rem; margin-bottom: 0 !important; }
+
+#hjfr-sun-section-2 { background-image: url("../imgs/sub/sun/2.jpg"); background-size: cover; }
+#hjfr-sun-text-2-1 { font-size: 4rem; margin-bottom: 0 !important; }
+#hjfr-sun-text-2-2 { font-size: 2rem; margin-bottom: 0 !important; }
+
+.hjfr-sun-section-img-box { padding: 0; }
+.hjfr-sun-section-img { width: 100%; margin: 0; }
+.hjfr-sun-section-img-comment-wrap { position: relative; }
+.hjfr-sun-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+#hjfr-sun-text-3-1, 
+#hjfr-sun-text-4-1, 
+#hjfr-sun-text-6-1, #hjfr-sun-text-6-2, #hjfr-sun-text-6-3 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+#hjfr-sun-section-7 { background-image: url("../imgs/sub/sun/7.jpg"); background-size: cover; }
+#hjfr-sun-text-7-1 { font-size: 4rem; margin-bottom: 0 !important; }
+#hjfr-sun-text-7-2 { font-size: 2rem; margin-bottom: 0 !important; }
