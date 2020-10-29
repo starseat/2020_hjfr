@@ -131,3 +131,24 @@
 #hjfr-sun-section-7 { background-image: url("../imgs/sub/sun/7.jpg"); background-size: cover; }
 #hjfr-sun-text-7-1 { font-size: 4rem; margin-bottom: 0 !important; }
 #hjfr-sun-text-7-2 { font-size: 2rem; margin-bottom: 0 !important; }
+
+
+
+/* 수처리 사업 - water */
+#hjfr-water-section-1 { background-image: url("../imgs/sub/water/1.jpg"); background-size: cover; }
+#hjfr-water-text-1-1 { font-size: 3.6rem; margin-bottom: 0 !important; }
+#hjfr-water-text-1-2 { font-size: 4.6rem; margin-bottom: 0 !important; }
+#hjfr-water-text-1-3 { font-size: 1.4rem; margin-bottom: 0 !important; }
+
+#hjfr-water-section-2 { height: 16rem; }
+
+.hjfr-water-section-img-box { padding: 0; }
+.hjfr-water-section-img { width: 100%; margin: 0; }
+.hjfr-water-section-img-comment-wrap { position: relative; }
+.hjfr-water-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+#hjfr-water-section-3 { padding: 0; }
+
+#hjfr-water-section-4 { background-image: url("../imgs/sub/water/4.jpg"); background-size: cover; }
+#hjfr-water-text-4-1 { font-size: 2rem; margin-bottom: 0 !important; }
+#hjfr-water-text-4-2 { font-size: 2rem; margin-bottom: 0 !important; }
