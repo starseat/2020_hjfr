@@ -17,3 +17,42 @@
 .hjfr-group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
 
 .hjfr-map-section-contents { text-align: center !important; }
+
+@media (max-width: 576px) {
+    .hjfr-main-title { 
+        font-size: 2rem;
+        /* color: red; */
+    }
+}
+
+/* sm */
+@media (min-width: 576px) {
+    .hjfr-main-title { 
+        font-size: 2.4rem;
+        /* color: blue; */
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .hjfr-main-title { 
+        font-size: 2.8rem;
+        /* color: yellow; */
+    }
+}
+
+/* lg */
+@media (min-width: 992px) {
+    .hjfr-main-title { 
+        font-size: 3.2rem;
+        /* color: aqua; */
+    }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    .hjfr-main-title { 
+        font-size: 3.6rem;
+        /* color: blueviolet; */
+    }
+}

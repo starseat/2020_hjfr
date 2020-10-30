@@ -222,14 +222,21 @@ jQuery(document).ready(function($) {
    	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
       e.preventDefault();
 
-      var hash = this.hash;
+	  var hash = this.hash;
+	  console.log('hash:: ', hash);
+	  console.log('offset():: ', $(hash).offset());
 
-      $('html, body').animate({
-        'scrollTop': $(hash).offset().top - 0
-      }, 1000, 'easeInOutCirc', function(){
-        window.location.hash = hash;
-      });
-
+	  if(hash) {
+		$('html, body').animate({'scrollTop': $(hash).offset().top - 0}, 1000, 'easeInOutCirc', function() {
+			window.location.hash = hash;
+		});
+	  }
+	  else {
+		var _$this = $(this);
+		if(_$this.hasClass('hjfr-nav-sub')) {
+			location.href = _$this.attr('href');
+		}
+	  }
     });
   };
   OnePageNavigation();
