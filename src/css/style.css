@@ -11,7 +11,7 @@
 .hjfr-text-color-contents { padding-left: 15px; margin-bottom: 0 !important; }
 
 #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
-#hjfr-greetings-section * { color: #dfdfdf; }
+ #hjfr-greetings-section * { color: white; }
 .hjfr-greetings-section-contents { font-size: 1.25rem }
 .hjfr-group-item-content { margin-top: 16px; margin-bottom: 16px; }
 .hjfr-group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
@@ -20,40 +20,30 @@
 
 /* xs */
 @media (max-width: 576px) {
-    .hjfr-main-title { 
-        font-size: 2rem;
-        /* color: red; */
-    }
+    .hjfr-main-title { font-size: 2rem; }
+    #hjfr-greetings-section * { color: #dfdfdf; }
 }
 
 /* sm */
 @media (min-width: 576px) {
-    .hjfr-main-title { 
-        font-size: 2.4rem;
-        /* color: blue; */
-    }
+    .hjfr-main-title { font-size: 2.4rem; }
+    #hjfr-greetings-section * { color: #dfdfdf; }
 }
 
 /* md */
 @media (min-width: 768px) {
-    .hjfr-main-title { 
-        font-size: 2.8rem;
-        /* color: yellow; */
-    }
+    .hjfr-main-title { font-size: 2.8rem; }
+    #hjfr-greetings-section * { color: #dfdfdf; }
 }
 
 /* lg */
 @media (min-width: 992px) {
-    .hjfr-main-title { 
-        font-size: 3.2rem;
-        /* color: aqua; */
-    }
+    .hjfr-main-title { font-size: 3.2rem; }
+    #hjfr-greetings-section * { color: white; }
 }
 
 /* xl */
 @media (min-width: 1200px) {
-    .hjfr-main-title { 
-        font-size: 3.6rem;
-        /* color: blueviolet; */
-    }
+    .hjfr-main-title { font-size: 3.6rem; }
+    #hjfr-greetings-section * { color: white; }
 }
