@@ -11,13 +11,14 @@
 .hjfr-text-color-contents { padding-left: 15px; margin-bottom: 0 !important; }
 
 #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
-#hjfr-greetings-section * { color: white; }
+#hjfr-greetings-section * { color: #dfdfdf; }
 .hjfr-greetings-section-contents { font-size: 1.25rem }
 .hjfr-group-item-content { margin-top: 16px; margin-bottom: 16px; }
 .hjfr-group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
 
 .hjfr-map-section-contents { text-align: center !important; }
 
+/* xs */
 @media (max-width: 576px) {
     .hjfr-main-title { 
         font-size: 2rem;
