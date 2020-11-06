@@ -11,20 +11,39 @@
 .hjfr-text-color-contents { padding-left: 15px; margin-bottom: 0 !important; }
 
 #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
-#hjfr-greetings-section * { color: white; }
+ #hjfr-greetings-section * { color: white; }
 .hjfr-greetings-section-contents { font-size: 1.25rem }
 .hjfr-group-item-content { margin-top: 16px; margin-bottom: 16px; }
 .hjfr-group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
 
 .hjfr-map-section-contents { text-align: center !important; }
 
-#hjfr-water-section-2 {position:Relative;}
-.bussiness_info_list {position:Absolute; left:0; top:-46px; width:100%; text-align:center; }
-    .bns_info_list {display:inline-flex; align-items:stretch; width:100%; max-width:1070px;}
-        .bns_il_inner {display:inline-block; width:33.3%; padding:0 1.5rem; box-sizing:border-box;}
-            .bns_il_cont {display:inline-block; text-align:center; position:relative; width:100%; max-width:278px; height:100%; padding-top:135px; }
-                .bns_icon {display:block; position:Absolute; left:0; top:0; width:100%; height:135px; text-align:center;}
-                    .bns_icon img {display:inline-block; max-width:100%;}
-            .bns_text_box {display:block; margin:0; padding:1.5rem 1.5rem 1rem; width:100%; height:100%; box-sizing:border-box; border:1px solid #d2d2d2; border-width:0 1px 1px; border-top:2px solid #237171; background-color:#fff; box-shadow:15px 7px 15px -5px rgba(0,0,0,.5); text-align:left; line-height:1.3em; letter-spacing:-0.02em;}
-                .bns_text_title {display:block; color:#237171; font-size:1.4rem; margin-bottom:1rem; line-height:1.2em;}
-                .bns_text_cont {padding-left:3px; font-size:1.1rem; color:#666; margin-bottom:0.8rem;}
+/* xs */
+@media (max-width: 576px) {
+    .hjfr-main-title { font-size: 2rem; }
+    #hjfr-greetings-section * { color: #dfdfdf; }
+}
+
+/* sm */
+@media (min-width: 576px) {
+    .hjfr-main-title { font-size: 2.4rem; }
+    #hjfr-greetings-section * { color: #dfdfdf; }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .hjfr-main-title { font-size: 2.8rem; }
+    #hjfr-greetings-section * { color: #dfdfdf; }
+}
+
+/* lg */
+@media (min-width: 992px) {
+    .hjfr-main-title { font-size: 3.2rem; }
+    #hjfr-greetings-section * { color: white; }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    .hjfr-main-title { font-size: 3.6rem; }
+    #hjfr-greetings-section * { color: white; }
+}
