@@ -138,13 +138,14 @@
   .hjfr-group-main-text-business { font-size: 3.8rem; }
   .hjfr-group-main-text-desc { font-size: 1rem; }
 
-  .hjfr-group-item-text-title { font-size: 2.4rem; }
-  .hjfr-group-item-text-conts { font-size: 0.6rem; }
+  .hjfr-group-item-text-title { font-size: 2.2rem; }
+  .hjfr-group-item-text-conts { font-size: 0.8rem; }
 
-  .hjfr-group-item-text-img-title { font-size: 1.6rem; }
-  .hjfr-group-item-text-img-desc { font-size: 0.6rem; }
+  .hjfr-group-item-text-img-title { font-size: 1.4rem; }
+  .hjfr-group-item-text-img-desc { font-size: 0.8rem; }
 
-  .swiper-container { width: 384px; height: 288px; }
+  /* .swiper-container { width: 384px; height: 288px; margin-left: 0; margin-right: 0; } */
+  .swiper-container { width: 100%; }
   .swiper-button-prev, .swiper-button-next { display: none; }
 }
 
@@ -160,7 +161,8 @@
   .hjfr-group-item-text-img-title { font-size: 2rem; }
   .hjfr-group-item-text-img-desc { font-size: 0.8rem; }
 
-  .swiper-container { width: 512px; height: 336px; }
+  /* .swiper-container { width: 512px; height: 336px; margin-left: auto; margin-right: auto; } */
+  .swiper-container { width: 100%; }
   .swiper-button-prev, .swiper-button-next { display: none; }
 }
 
@@ -176,7 +178,8 @@
   .hjfr-group-item-text-img-title { font-size: 2rem; }
   .hjfr-group-item-text-img-desc { font-size: 1rem; }
 
-  .swiper-container { width: 512px; height: 336px; }
+  /* .swiper-container { width: 512px; height: 336px; margin-left: auto; margin-right: auto; } */
+  .swiper-container { width: 100%; }
   .swiper-button-prev, .swiper-button-next { display: block; }
 }
 
@@ -192,7 +195,7 @@
   .hjfr-group-item-text-img-title { font-size: 2.2rem; }
   .hjfr-group-item-text-img-desc { font-size: 1.2rem; }
 
-  .swiper-container { width: 640px; height: 480px; }
+  .swiper-container { width: 640px; height: 480px; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
 }
 
@@ -208,6 +211,6 @@
   .hjfr-group-item-text-img-title { font-size: 2.4rem; }
   .hjfr-group-item-text-img-desc { font-size: 1.4rem; }
 
-  .swiper-container { width: 640px; height: 480px; }
+  .swiper-container { width: 640px; height: 480px; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
 }
