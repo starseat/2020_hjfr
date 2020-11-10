@@ -61,10 +61,19 @@
 /* 윤활유 - oil */
 #hjfr-oil-section-1 { background-image: url("../imgs/sub/oil/1.jpg"); background-size: cover; }
 
-.hjfr-oil-section-img-box { padding: 0; }
+/* .hjfr-oil-section-img-box { padding: 0; }
 .hjfr-oil-section-img { width: 100%; margin: 0; }
 .hjfr-oil-section-img-comment-wrap { position: relative; }
-.hjfr-oil-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.hjfr-oil-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } */
+
+.hjfr-oil-section-img-box { padding: 0; width:50%;}
+.hjfr-oil-section-img { width: 100%; margin: 0; }
+.hjfr-oil-section-img-box,
+.hjfr-oil-section-img-comment-wrap {display:Table-cell; width:50%; vertical-align:middle; }
+.hjfr-oil-section-img-comment-box {padding:10px; box-sizing:border-box; }
+#hjfr-oil-section-2 .row,
+#hjfr-oil-section-3 .row,
+#hjfr-oil-section-4 .row {margin:0; display:table; table-layout:fixed; width:100%; box-sizing:border-box;}
 
 #hjfr-oil-section-3 { background-image: url("../imgs/sub/oil/3.jpg"); background-size: cover; }
 #hjfr-oil-section-5 { background-image: url("../imgs/sub/oil/5.jpg"); background-size: cover; }
@@ -74,14 +83,22 @@
 /* 목재 펠릿 - wood */
 #hjfr-wood-section-1 { background-image: url("../imgs/sub/wood/1.jpg"); background-size: cover; }
 
-.hjfr-wood-section-img-box { padding: 0; }
+/* .hjfr-wood-section-img-box { padding: 0; }
 .hjfr-wood-section-img { width: 100%; margin: 0; }
 .hjfr-wood-section-img-comment-wrap { position: relative; }
-.hjfr-wood-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.hjfr-wood-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } */
+
+.hjfr-wood-section-img-box { padding: 0; width:50%;}
+.hjfr-wood-section-img { width: 100%; margin: 0; }
+.hjfr-wood-section-img-box,
+.hjfr-wood-section-img-comment-wrap {display:Table-cell; width:50%; vertical-align:middle; }
+.hjfr-wood-section-img-comment-box {padding:10px; box-sizing:border-box; }
 
 #hjfr-wood-section-3 { background-image: url("../imgs/sub/wood/3.jpg"); background-size: cover; }
 
-
+#hjfr-wood-section-2 .row,
+#hjfr-wood-section-3 .row,
+#hjfr-wood-section-4 .row {margin:0; display:table; table-layout:fixed; width:100%; box-sizing:border-box;}
 
 /* 운송 사업 - lng */
 .container-fluid {padding:0;}
@@ -103,10 +120,25 @@
 /* 태양광 사업 - sun */
 #hjfr-sun-section-1 { background-image: url("../imgs/sub/sun/1.jpg"); background-size: cover; }
 #hjfr-sun-section-2 { background-image: url("../imgs/sub/sun/2.jpg"); background-size: cover; }
-.hjfr-sun-section-img-box { padding: 0; }
+/* .hjfr-sun-section-img-box { padding: 0; }
 .hjfr-sun-section-img { width: 100%; margin: 0; }
 .hjfr-sun-section-img-comment-wrap { position: relative; }
-.hjfr-sun-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.hjfr-sun-section-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } */
+
+.hjfr-sun-section-img-box { padding: 0; width:50%;}
+.hjfr-sun-section-img { width: 100%; margin: 0; }
+.hjfr-sun-section-img-box,
+.hjfr-sun-section-img-comment-wrap {display:Table-cell; width:50%; vertical-align:middle; }
+.hjfr-sun-section-img-comment-box {padding:10px; box-sizing:border-box; }
+#hjfr-sun-section-3 .row,
+#hjfr-sun-section-4 .row {margin:0; display:table; table-layout:fixed; width:100%; box-sizing:border-box;}
+
+
+.hjfr-sun-section6-img-box { padding: 0; }
+.hjfr-sun-section6-img { width: 100%; margin: 0; }
+.hjfr-sun-section6-img-comment-wrap { position: relative; }
+.hjfr-sun-section6-img-comment-box { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
 #hjfr-sun-section-7 { background-image: url("../imgs/sub/sun/7.jpg"); background-size: cover; }
 
 
@@ -219,19 +251,26 @@
 
 /* 모바일 제어 */
 @media screen and (max-width:720px) {
-    .hjfr-lng-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
-    .hjfr-lng-section-img-box img {display:none !important;}
-    .hjfr-lng-section-img-comment-box {}
-    /* 수처리 */
+  .hjfr-lng-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
+  .hjfr-lng-section-img-box img {display:none !important;}
+
+  .hjfr-sun-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
+  .hjfr-sun-section-img-box img {display:none !important;}
+
+  .hjfr-oil-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
+  .hjfr-oil-section-img-box img {display:none !important;}
+
+  .hjfr-wood-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
+  .hjfr-wood-section-img-box img {display:none !important;}
+
+  /* 수처리 */
   .bussiness_info_list {position:Relative;}
   #hjfr-water-section-2 {height:auto;}
-    .bns_info_list {display:block;}
-      .bns_il_inner {width:100%; display:block; margin-top:30px;}
-      .bns_il_cont {padding:0 0 0 100px; max-width:100%;}
-        .bns_il_cont .bns_icon {width:auto; height:95px; left:-10px;}
-          .bns_icon img {height:100%;}
-        .bns_text_cont {font-size:14px; margin-bottom:5px;}
-        .bns_text_title {font-size:18px;}
-
-
+  .bns_info_list {display:block;}
+  .bns_il_inner {width:100%; display:block; margin-top:30px;}
+  .bns_il_cont {padding:0 0 0 100px; max-width:100%;}
+  .bns_il_cont .bns_icon {width:auto; height:95px; left:-10px;}
+  .bns_icon img {height:100%;}
+  .bns_text_cont {font-size:14px; margin-bottom:5px;}
+  .bns_text_title {font-size:18px;}
 }
