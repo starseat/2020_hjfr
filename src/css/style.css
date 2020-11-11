@@ -18,6 +18,10 @@
 
 .hjfr-map-section-contents { text-align: center !important; }
 
+@media (max-width: 480px) {
+    .hjfr-main-title { font-size: 1.6rem; }
+}
+
 /* xs */
 @media (max-width: 576px) {
     .hjfr-main-title { font-size: 2rem; }
