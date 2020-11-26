@@ -30,35 +30,43 @@ body { font-family: 'NanumSquare', sans-serif; }
 .hjfr-map-section-contents { text-align: center !important; }
 
 @media (max-width: 480px) {
-    .hjfr-main-title { font-size: 1.6rem; }
+    .hjfr-main-title { font-size: 1.4rem; }
+    .hjfr-greetings-section-contents { font-size: 1.1rem }
+    #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
+    #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
 }
 
 /* xs */
 @media (max-width: 576px) {
     .hjfr-main-title { font-size: 2rem; }
+    #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
 }
 
 /* sm */
 @media (min-width: 576px) {
     .hjfr-main-title { font-size: 2.4rem; }
+    #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
 }
 
 /* md */
 @media (min-width: 768px) {
     .hjfr-main-title { font-size: 2.8rem; }
-    #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
+    #hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; }
+    #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
 }
 
 /* lg */
 @media (min-width: 992px) {
     .hjfr-main-title { font-size: 3.2rem; }
+    #hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
 }
 
 /* xl */
 @media (min-width: 1200px) {
     .hjfr-main-title { font-size: 3.6rem; }
+    #hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
 }
