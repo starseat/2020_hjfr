@@ -1,4 +1,9 @@
 
+@charset "utf-8";
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+body { font-family: 'NanumSquare', sans-serif; }
+
 #hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); }
 .hjfr-nav-sub { width: 240px !important; }
 
@@ -8,6 +13,8 @@
 #hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; }
 .hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
 .hjfr-main-title { font-size: 3.2rem; margin-bottom: 0 !important; }
+.hjfr-main-title-extrabold { font-weight: 900 !important; }
+.hjfr-text-color-company { color: #3a6797}
 .hjfr-text-color-contents { padding-left: 15px; margin-bottom: 0 !important; }
 
 #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
@@ -18,6 +25,10 @@
 
 .hjfr-map-section-contents { text-align: center !important; }
 
+.nav-link { color: #686868 !important; font-weight: bold !important; }
+.nav-link:hover { color: #407171 !important; }
+.nav-link.active { color: #407171 !important; font-weight: 900 !important; }
+
 @media (max-width: 480px) {
     .hjfr-main-title { font-size: 1.6rem; }
 }
@@ -25,29 +36,29 @@
 /* xs */
 @media (max-width: 576px) {
     .hjfr-main-title { font-size: 2rem; }
-    #hjfr-greetings-section * { color: #dfdfdf; }
+    #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
 }
 
 /* sm */
 @media (min-width: 576px) {
     .hjfr-main-title { font-size: 2.4rem; }
-    #hjfr-greetings-section * { color: #dfdfdf; }
+    #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
 }
 
 /* md */
 @media (min-width: 768px) {
     .hjfr-main-title { font-size: 2.8rem; }
-    #hjfr-greetings-section * { color: #dfdfdf; }
+    #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
 }
 
 /* lg */
 @media (min-width: 992px) {
     .hjfr-main-title { font-size: 3.2rem; }
-    #hjfr-greetings-section * { color: white; }
+    #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
 }
 
 /* xl */
 @media (min-width: 1200px) {
     .hjfr-main-title { font-size: 3.6rem; }
-    #hjfr-greetings-section * { color: white; }
+    #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
 }
