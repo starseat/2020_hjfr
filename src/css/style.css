@@ -12,7 +12,7 @@ body { font-family: 'NanumSquare', sans-serif; }
 .hjfr-nav-sub { width: 240px !important; }
 
 .hjfr-text-color { color: #53898a; }
-.hjfr-text-color-title { color: #53898a; font-weight: bold; }
+.hjfr-text-color-title { color: #53898a; font-weight: 600; } /* bold: 700 */
 
 #hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; }
 .hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
