@@ -152,7 +152,7 @@ body { font-family: 'NanumSquare', sans-serif; }
 
 
 /* 수처리 사업 - water */
-#hjfr-water-section-1 { background-image: url("../imgs/sub/water/1.jpg"); background-size: cover; }
+#hjfr-water-section-1 { background-image: url("../imgs/sub/water/1.png"); background-size: cover; }
 
 #hjfr-water-section-2 { height: 16rem; position:Relative;}
 .bussiness_info_list {position:Absolute; left:0; top:-46px; width:100%; text-align:center; }
