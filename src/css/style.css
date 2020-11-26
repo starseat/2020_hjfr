@@ -7,6 +7,7 @@ body { font-family: 'NanumSquare', sans-serif; }
 .nav-link { color: #686868 !important; font-weight: bold !important; }
 .nav-link:hover { color: #407171 !important; }
 .nav-link.active { color: #407171 !important; font-weight: 900 !important; }
+.site-menu-toggle.js-menu-toggle.text-black.float-right { color: #686868 !important; }
 
 #hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); }
 .hjfr-nav-sub { width: 240px !important; }
@@ -30,7 +31,7 @@ body { font-family: 'NanumSquare', sans-serif; }
 .hjfr-map-section-contents { text-align: center !important; }
 
 @media (max-width: 480px) {
-    .hjfr-main-title { font-size: 1.4rem; }
+    .hjfr-main-title { font-size: 1.2rem; }
     .hjfr-greetings-section-contents { font-size: 1.1rem }
     #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
