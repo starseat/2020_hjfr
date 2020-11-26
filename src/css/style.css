@@ -4,6 +4,10 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 body { font-family: 'NanumSquare', sans-serif; }
 
+.nav-link { color: #686868 !important; font-weight: bold !important; }
+.nav-link:hover { color: #407171 !important; }
+.nav-link.active { color: #407171 !important; font-weight: 900 !important; }
+
 #hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); }
 .hjfr-nav-sub { width: 240px !important; }
 
@@ -24,10 +28,6 @@ body { font-family: 'NanumSquare', sans-serif; }
 .hjfr-group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
 
 .hjfr-map-section-contents { text-align: center !important; }
-
-.nav-link { color: #686868 !important; font-weight: bold !important; }
-.nav-link:hover { color: #407171 !important; }
-.nav-link.active { color: #407171 !important; font-weight: 900 !important; }
 
 @media (max-width: 480px) {
     .hjfr-main-title { font-size: 1.6rem; }
