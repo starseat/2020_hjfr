@@ -46,7 +46,7 @@ body { font-family: 'NanumSquare', sans-serif; }
 .hjfr-group-item-text-title { font-size: 4rem; margin-bottom: 0 !important; }
 .hjfr-group-item-text-conts { font-size: 2rem; margin-bottom: 0 !important; }
 .hjfr-group-item-text-img-title { font-size: 2.4rem; margin-bottom: 0 !important; }
-.hjfr-group-item-text-img-desc { font-size: 1.4rem; margin-bottom: 0 !important; margin-left: 8rem; margin-right: 8rem; }
+.hjfr-group-item-text-img-desc { font-size: 1.4rem; margin-bottom: 0 !important; }
 
 
 /* 불용자재 - disuse */
@@ -189,8 +189,8 @@ body { font-family: 'NanumSquare', sans-serif; }
   .hjfr-group-item-text-title { font-size: 2.2rem; }
   .hjfr-group-item-text-conts { font-size: 0.8rem; }
 
-  .hjfr-group-item-text-img-title { font-size: 1.4rem; }
-  .hjfr-group-item-text-img-desc { font-size: 0.8rem; }
+  .hjfr-group-item-text-img-title { font-size: 1.4rem; margin-left: 0.2 !important; margin-right: 0.2rem !important; }
+  .hjfr-group-item-text-img-desc { font-size: 0.8rem; margin-left: 0.2 !important; margin-right: 0.2rem !important; }
 
   /* .swiper-container { width: 384px; height: 288px; margin-left: 0; margin-right: 0; } */
   .swiper-container { width: 100%; }
@@ -206,8 +206,8 @@ body { font-family: 'NanumSquare', sans-serif; }
   .hjfr-group-item-text-title { font-size: 2.8rem; }
   .hjfr-group-item-text-conts { font-size: 0.8rem; }
 
-  .hjfr-group-item-text-img-title { font-size: 2rem; }
-  .hjfr-group-item-text-img-desc { font-size: 0.8rem; }
+  .hjfr-group-item-text-img-title { font-size: 2rem; margin-left: 0.2rem !important; margin-right: 0.2rem !important; }
+  .hjfr-group-item-text-img-desc { font-size: 0.8rem; margin-left: 0.2rem !important; margin-right: 0.2rem !important; }
 
   /* .swiper-container { width: 512px; height: 336px; margin-left: auto; margin-right: auto; } */
   .swiper-container { width: 100%; }
@@ -223,8 +223,8 @@ body { font-family: 'NanumSquare', sans-serif; }
   .hjfr-group-item-text-title { font-size: 3.2rem; }
   .hjfr-group-item-text-conts { font-size: 1.2rem; }
 
-  .hjfr-group-item-text-img-title { font-size: 2rem; }
-  .hjfr-group-item-text-img-desc { font-size: 1rem; }
+  .hjfr-group-item-text-img-title { font-size: 2rem; margin-left: 0.4rem !important; margin-right: 0.4rem !important; }
+  .hjfr-group-item-text-img-desc { font-size: 1rem; margin-left: 0.4rem !important; margin-right: 0.4rem !important; }
 
   /* .swiper-container { width: 512px; height: 336px; margin-left: auto; margin-right: auto; } */
   .swiper-container { width: 100%; }
@@ -240,8 +240,8 @@ body { font-family: 'NanumSquare', sans-serif; }
   .hjfr-group-item-text-title { font-size: 3.6rem; }
   .hjfr-group-item-text-conts { font-size: 1.6rem; }
 
-  .hjfr-group-item-text-img-title { font-size: 2.2rem; }
-  .hjfr-group-item-text-img-desc { font-size: 1.2rem; }
+  .hjfr-group-item-text-img-title { font-size: 2.2rem; margin-left: 8rem !important; margin-right: 8rem !important; }
+  .hjfr-group-item-text-img-desc { font-size: 1.2rem; margin-left: 8rem !important; margin-right: 8rem !important; }
 
   .swiper-container { width: 640px; height: 480px; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
@@ -256,8 +256,8 @@ body { font-family: 'NanumSquare', sans-serif; }
   .hjfr-group-item-text-title { font-size: 4rem; }
   .hjfr-group-item-text-conts { font-size: 2rem; }
 
-  .hjfr-group-item-text-img-title { font-size: 2.4rem; }
-  .hjfr-group-item-text-img-desc { font-size: 1.4rem; }
+  .hjfr-group-item-text-img-title { font-size: 2.4rem; margin-left: 8rem !important; margin-right: 8rem !important; }
+  .hjfr-group-item-text-img-desc { font-size: 1.4rem; margin-left: 8rem !important; margin-right: 8rem !important; }
 
   .swiper-container { width: 640px; height: 480px; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
