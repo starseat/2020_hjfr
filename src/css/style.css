@@ -30,11 +30,42 @@ body { font-family: 'NanumSquare', sans-serif; }
 
 .hjfr-map-section-contents { text-align: center !important; }
 
+/* history */
+.history_section_w {position:Relative;}
+.history_section_w:after {display:block; content:''; position:Absolute; left:0; top:5px; z-index:1; width:30px; height:calc(100% - 25px); border-radius:30px; background-color:#bfbfbe;}
+.history_section_inner:after {}
+    .history_section_box {margin-top:25px; padding-left:370px; position:relative; z-index:2;}
+    .history_section_box:first-child {margin-top:0;}
+.history_section_box:after {display:block; content:''; position:Absolute; left:46px; top:16px; width:160px; height:2px; background-color:#fff; border-bottom:2px dashed #ccc;}
+    [class^="history_section_box bg_green0"] .hsb_date {position:Absolute; left:222px; top:0; width:115px; height:35px; line-height:35px; text-align:center; border-radius:35px; color:#fff; font-size:20px; font-weight:700;}
+    .bg_green01 .hsb_date {background-color:#a1ca6a;}
+    .bg_green02 .hsb_date {background-color:#6bad63;}
+    .bg_green03 .hsb_date {background-color:#0e7372;}
+    .bg_green04 .hsb_date {background-color:#11444c;}
+    .hsb_dott:after {display:block; content:''; position:absolute; left:50%; top:50%; margin:-7px 0 0 -7px; width:14px; height:14px; background-color:#fff; border-radius:100%;}
+    .hsb_dott{display:block; position:absolute; left:0; top:2px;  width:30px; height:30px; border-radius:100%;}
+    .bg_green01 .hsb_dott {background-color:#a1ca6a;}
+    .bg_green02 .hsb_dott {background-color:#6bad63;}
+    .bg_green03 .hsb_dott {background-color:#0e7372;}
+    .bg_green04 .hsb_dott {background-color:#11444c;}
+    .hsb_text {display:block; min-height:35px; line-height:1.5em; padding-bottom:20px; color:#6d6d6d; font-size:18px; font-weight:700;}
+        .point_txt_green {display:inline-block; color:#0e7372;}
+
+
+
 @media (max-width: 480px) {
     .hjfr-main-title { font-size: 1.2rem; }
     .hjfr-greetings-section-contents { font-size: 1.1rem }
     #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
+    /*  history */
+    .history_section_box {padding-left:185px; margin-top:15px;}
+    [class^="history_section_box bg_green0"] .hsb_date {left:85px; font-size:14px; width:85px; height:25px; line-height:25px;}
+    .hsb_text {font-size:14px; padding-bottom:10px;}
+    .hsb_dott {width:26px; height:26px; top:0;}
+    .hsb_dott:after {width:12px; height:12px; margin:-6px 0 0 -6px;}
+    .history_section_w:after {width:26px; top:2px; height:calc(100% - 30px);}
+    .history_section_box:after {left:35px; width:40px; top:12px;}
 }
 
 /* xs */
