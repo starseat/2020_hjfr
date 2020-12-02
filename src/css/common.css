@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+body { font-family: 'NanumSquare', sans-serif; }
+
+.nav-link { color: #686868 !important; font-weight: bold !important; }
+.nav-link:hover { color: #407171 !important; }
+.nav-link.active { color: #407171 !important; font-weight: 900 !important; }
+.site-menu-toggle.js-menu-toggle.text-black.float-right { color: #686868 !important; }
+
+#hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); }
+.hjfr-nav-sub { width: 240px !important; }
+
+
+@media (max-width: 480px) {
+}
+
+/* xs */
+@media (max-width: 576px) {
+}
+
+/* sm */
+@media (min-width: 576px) {
+}
+
+
+
+
+/* xl */
+@media (max-width: 1200px) {
+    .site-logo img { width: 90% !important; }
+}
+@media (min-width: 1200px) {
+    .site-logo img { width: 60% !important; }
+}
+
+/* lg */
+@media (max-width: 992px) {
+    .site-logo img { width: 160% !important; }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .site-logo img { width: 60% !important; }
+}
+
+
+/* 모바일 제어 */
+@media screen and (max-width:720px) {
+}

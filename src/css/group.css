@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
-body { font-family: 'NanumSquare', sans-serif; }
-
-.nav-link { color: #686868 !important; font-weight: bold !important; }
-.nav-link:hover { color: #407171 !important; }
-.nav-link.active { color: #407171 !important; font-weight: 900 !important; }
-.site-menu-toggle.js-menu-toggle.text-black.float-right { color: #686868 !important; }
 
 #hjfr-navbar-section { background-color: white; }
 .hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
