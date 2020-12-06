@@ -35,8 +35,13 @@ body { font-family: 'NanumSquare', sans-serif; }
 }
 
 /* lg */
+@media (min-width: 992px) {
+    .hjfr-nav-sub { font-size: 1rem !important; }
+}
 @media (max-width: 992px) {
     .site-logo img { width: 160% !important; }
+    .hjfr-nav-sub { font-size: 0.9rem !important; }
+    
 }
 
 /* md */

@@ -167,6 +167,12 @@
 #hjfr-water-section-3 { padding: 0; }
 #hjfr-water-section-4 { background-image: url("../imgs/sub/water/4.jpg"); background-size: cover; }
 
+@media (max-width: 380px) {
+  .hjfr-group-main-text-business { font-size: 2.6rem !important; }
+  .hjfr-group-item-text-title { font-size: 2rem; }
+  .hjfr-group-item-text-img-title { font-size: 1.2rem; }
+}
+
 @media (max-width: 480px) {
   .hjfr-group-main-text-business { font-size: 3.4rem; }
   .hjfr-group-item-text-title { font-size: 2rem; }
