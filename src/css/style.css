@@ -7,12 +7,19 @@
 .hjfr-text-color { color: #53898a; }
 .hjfr-text-color-title { color: #53898a; font-weight: 600; } /* bold: 700 */
 
-#hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; }
+#hjfr-main-section { background-image: url("../imgs/main_background.png"); background-size: cover; 
+    -moz-box-sizing: border-box; /* Firefox  */
+    -webkit-box-sizing: border-box; /* Safari */
+    box-sizing: border-box; /* CSS3 Standard */ }
 .hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
 .hjfr-main-title { font-size: 3.2rem; margin-bottom: 0 !important; }
 .hjfr-main-title-extrabold { font-weight: 900 !important; }
 .hjfr-text-color-company { color: #3a6797}
 .hjfr-text-color-contents { padding-left: 15px; margin-bottom: 0 !important; }
+
+#hjfr-main { width: 100% !important; z-index: 9; }
+#hjfr-main-contents-box { display: inline-table; position: absolute; top: 36%; margin-top: -50px; }
+#hjfr-main-contents { display: table-cell; vertical-align: middle; }
 
 #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
  #hjfr-greetings-section * { color: white; }
@@ -21,6 +28,8 @@
 .hjfr-group-item-more { color: #53898a; font-weight: bold; font-size: 0.6rem; cursor: pointer; }
 
 .hjfr-map-section-contents { text-align: center !important; }
+
+
 
 /* history */
 .history_section_w {position:Relative;}
