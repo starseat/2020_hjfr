@@ -117,6 +117,7 @@
 .hjfr-lng-section-img-comment-box {padding:10px; box-sizing:border-box; }
 
 #hjfr-lng-section-5 { background-image: url("../imgs/sub/lng/5.jpg"); background-size: cover; }
+#hjfr-lng-section-6 .row { margin: 0;}
 #hjfr-lng-section-7 { background-image: url("../imgs/sub/lng/7.jpg"); background-size: cover; }
 
 
@@ -267,6 +268,7 @@
 @media screen and (max-width:720px) {
   .hjfr-lng-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
   .hjfr-lng-section-img-box img {display:none !important;}
+  #hjfr-lng-section-6-img { display: block !important; }
 
   .hjfr-sun-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
   .hjfr-sun-section-img-box img {display:none !important;}

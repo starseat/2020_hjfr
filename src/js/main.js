@@ -19,9 +19,9 @@ $(document).ready(function() {
 
 function fullMain() {
     var minusHeight = $('#hjfr-navbar-section').outerHeight();
+    
     if(window.innerWidth < 990) {
-        minusHeight = 82;
+        minusHeight -= 14;
     }
     $('#hjfr-main').css({height: window.innerHeight - minusHeight });
 }
-
