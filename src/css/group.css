@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 #hjfr-navbar-section { background-color: white; }
 .hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
 
@@ -15,7 +14,7 @@
 .hjfr-slide-background-color { background-color: #dddddd; }
 .hjfr-slide-background-color .swiper-slide { background-color: #dddddd; }
 
-.swiper-container { width: 640px; height: 420px; }
+.swiper-container { width: 80%; height: auto; }
 .swiper-slide { text-align: center; display: flex; align-items: center; justify-content: center; }
 .swiper-slide img { width: 70%; height: 70%; max-width: 100%; max-height: 100%; }
 .swiper-pagination-bullet-active { background-color: #287c7d; }
@@ -31,6 +30,9 @@
 .swiper-container-rtl .swiper-button-prev.swiper-button-black {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23afafaf'%2F%3E%3C%2Fsvg%3E");
 }
+
+.swiper-pagination { text-align: center; margin: 0 auto; width: 100%; left: 0; }
+.swiper-pagination span { display: inline-block !important; margin: 12px 4px 4px 4px; }
 
 .hjfr-group-main-text-company { font-size: 2.4rem; margin-bottom: 0 !important; }
 .hjfr-group-main-text-business { font-size: 4.6rem; margin-bottom: 0 !important; }
@@ -137,7 +139,6 @@
 #hjfr-sun-section-3 .row,
 #hjfr-sun-section-4 .row {margin:0; display:table; table-layout:fixed; width:100%; box-sizing:border-box;}
 
-
 .hjfr-sun-section6-img-box { padding: 0; }
 .hjfr-sun-section6-img { width: 100%; margin: 0; }
 .hjfr-sun-section6-img-comment-wrap { position: relative; }
@@ -243,7 +244,7 @@
   .hjfr-group-item-text-img-title { font-size: 2.2rem; margin-left: 8rem !important; margin-right: 8rem !important; }
   .hjfr-group-item-text-img-desc { font-size: 1.2rem; margin-left: 8rem !important; margin-right: 8rem !important; }
 
-  .swiper-container { width: 640px; height: 480px; margin-left: auto; margin-right: auto; }
+  .swiper-container { width: 80%; height: auto; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
 }
 
@@ -259,7 +260,7 @@
   .hjfr-group-item-text-img-title { font-size: 2.4rem; margin-left: 8rem !important; margin-right: 8rem !important; }
   .hjfr-group-item-text-img-desc { font-size: 1.4rem; margin-left: 8rem !important; margin-right: 8rem !important; }
 
-  .swiper-container { width: 640px; height: 480px; margin-left: auto; margin-right: auto; }
+  .swiper-container { width: 80%; height: auto; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
 }
 
