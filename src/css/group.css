@@ -184,6 +184,8 @@
   .hjfr-group-main-text-business { font-size: 3.4rem; }
   .hjfr-group-item-text-title { font-size: 2rem; }
   .hjfr-group-item-text-img-title { font-size: 1.2rem; }
+
+  .hjfr-sun-section6-img-comment-box { margin-left: 1rem; }
 }
 
 /* xs */
@@ -202,6 +204,8 @@
   /* .swiper-container { width: 384px; height: 288px; margin-left: 0; margin-right: 0; } */
   .swiper-container { width: 100%; }
   .swiper-button-prev, .swiper-button-next { display: none; }
+
+  .hjfr-sun-section6-img-comment-box { margin-left: 1.4rem; }
 }
 
 /* sm */
@@ -220,6 +224,8 @@
   /* .swiper-container { width: 512px; height: 336px; margin-left: auto; margin-right: auto; } */
   .swiper-container { width: 100%; }
   .swiper-button-prev, .swiper-button-next { display: none; }
+
+  .hjfr-sun-section6-img-comment-box { margin-left: 1.6rem; }
 }
 
 /* md */
@@ -238,6 +244,8 @@
   /* .swiper-container { width: 512px; height: 336px; margin-left: auto; margin-right: auto; } */
   .swiper-container { width: 100%; }
   .swiper-button-prev, .swiper-button-next { display: block; }
+
+  .hjfr-sun-section6-img-comment-box { margin-left: 2rem; }
 }
 
 /* lg */
@@ -255,6 +263,8 @@
 
   .swiper-container { width: 80%; height: auto; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
+
+  .hjfr-sun-section6-img-comment-box { margin: 0; left: 50%; }
 }
 
 /* xl */
@@ -272,6 +282,8 @@
 
   .swiper-container { width: 80%; height: auto; margin-left: auto; margin-right: auto; }
   .swiper-button-prev, .swiper-button-next { display: block; }
+
+  .hjfr-sun-section6-img-comment-box { margin: 0; left: 50%; }
 }
 
 
