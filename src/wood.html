@@ -145,8 +145,8 @@
         <div id="hjfr-wood-section-3-contents">
           <img id="hjfr-wood-section-3-backimg" src="./imgs/sub/wood/3.png" alt="규원에너지 3" >
           <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6">
+            <div class="col-sm-6 col-4"></div>
+            <div class="col-sm-6 col-8">
               <div class="hjfr-wood-section-img-comment-box">
                 <p class="hjfr-group-item-text-img-desc" id="hjfr-wood-section-3-text">
                   세계적인 환경 이슈인 지구온난화를 유발시키는 CO2의 발생을 적제할 수 있는 신재생에너지인 "미이용바이오매스" 목재펠릿을 생산하여, 
@@ -229,7 +229,14 @@
       var imgHeight = $('#hjfr-wood-section-3-backimg').height();
       $('#hjfr-wood-section-3-contents').height(imgHeight);
 
-      var textPaddingTop = (imgHeight/2) - ($('#hjfr-wood-section-3-text').height()/2);
+      var textPaddingTop = 0;
+      if(window.innerWidth <= 576) {
+        textPaddingTop = Math.max((imgHeight/2) - ($('#hjfr-wood-section-3-text').height()/1.6));
+      }
+      else {
+        textPaddingTop = Math.max((imgHeight/2) - ($('#hjfr-wood-section-3-text').height()/2));
+      }
+
       if(textPaddingTop < 6) {
         textPaddingTop = 2;
       }

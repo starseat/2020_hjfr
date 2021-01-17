@@ -8,7 +8,8 @@ body { font-family: 'NanumSquare', sans-serif; }
 .nav-link.active { color: #407171 !important; font-weight: 900 !important; }
 .site-menu-toggle.js-menu-toggle.text-black.float-right { color: #686868 !important; }
 
-#hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); }
+/* #hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); } */
+#hjfr-navbar-section { /* padding: 0 !important; */ padding-top: 6px; padding-bottom: 6px; }
 .hjfr-nav-sub { width: 240px !important; }
 
 .dropdown.arrow-top { border-top: 2px solid #287c7d !important; }
@@ -19,10 +20,12 @@ body { font-family: 'NanumSquare', sans-serif; }
 
 /* xs */
 @media (max-width: 576px) {
+    #hjfr-footer-section { font-size: 0.8rem; }
 }
 
 /* sm */
 @media (min-width: 576px) {
+    #hjfr-footer-section { font-size: 1.2rem; }
 }
 
 
