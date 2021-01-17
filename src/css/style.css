@@ -21,6 +21,9 @@
 #hjfr-main-contents-box { display: inline-table; position: absolute; top: 36%; margin-top: -50px; }
 #hjfr-main-contents { display: table-cell; vertical-align: middle; }
 
+#hjfr-main-section-mobile { display: none; padding: 0; }
+#hjfr-main-section-mobile-backimg { width: 100%; }
+
 #hjfr-greetings-section { background-image: url("../imgs/greeting_background.png"); background-size: cover; }
  #hjfr-greetings-section * { color: white; }
 .hjfr-greetings-section-contents { font-size: 1.25rem }
@@ -57,7 +60,7 @@
 @media (max-width: 480px) {
     .hjfr-main-title { font-size: 1.2rem; }
     .hjfr-greetings-section-contents { font-size: 1.1rem }
-    #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
+    #hjfr-main-section { background-image: url("../imgs/main_background_small.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
     /*  history */
     /* .history_section_box {padding-left:185px; margin-top:15px;}
@@ -77,7 +80,7 @@
 /* xs */
 @media (max-width: 576px) {
     .hjfr-main-title { font-size: 2rem; }
-    #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
+    #hjfr-main-section { background-image: url("../imgs/main_background_small.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
     
     .hsb_dott {display: none;}
@@ -90,7 +93,7 @@
 /* sm */
 @media (min-width: 576px) {
     .hjfr-main-title { font-size: 2.4rem; }
-    #hjfr-main-section { background-image: url("../imgs/main_background_mobile.png"); background-size: cover; }
+    #hjfr-main-section { background-image: url("../imgs/main_background_small.png"); background-size: cover; }
     #hjfr-greetings-section { background-image: url("../imgs/greeting_background_mobile.png"); background-size: cover; }
 
     .hsb_dott {display: none;}

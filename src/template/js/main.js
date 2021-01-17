@@ -45,13 +45,15 @@ jQuery(document).ready(function($) {
     }, 1000);
 
 		$('body').on('click', '.arrow-collapse', function(e) {
-      var $this = $(this);
+	  var $this = $(this);
+	  console.log('(arrow-collapse) $this:: ', $this);
       if ( $this.closest('li').find('.collapse').hasClass('show') ) {
         $this.removeClass('active');
       } else {
         $this.addClass('active');
       }
-      e.preventDefault();  
+	  e.preventDefault();
+	  //e.stopPropagation();
       
     });
 
@@ -226,7 +228,7 @@ jQuery(document).ready(function($) {
 	  console.log('hash:: ', hash);
 	  console.log('offset():: ', $(hash).offset());
 
-	  if(hash) {
+	  if(typeof hash != 'undefined' && hash != '' && typeof $(hash).offset() != 'undefined') {
 		$('html, body').animate({'scrollTop': $(hash).offset().top - 0}, 1000, 'easeInOutCirc', function() {
 			window.location.hash = hash;
 		});

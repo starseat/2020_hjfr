@@ -11,6 +11,8 @@ body { font-family: 'NanumSquare', sans-serif; }
 #hjfr-navbar-section { background-color: rgba( 255, 255, 255, 0 ); }
 .hjfr-nav-sub { width: 240px !important; }
 
+.dropdown.arrow-top { border-top: 2px solid #287c7d !important; }
+.arrow-collapse.active {  color: #287c7d !important; }
 
 @media (max-width: 480px) {
 }

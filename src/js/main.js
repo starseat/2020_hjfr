@@ -3,6 +3,9 @@ function goGroupItem(item) {
 }
 
 $(document).ready(function() {
+    var is_mobile = isMobile();
+    is_mobile = true;
+
     $(window).scroll(function () {
         var height = $(document).scrollTop();
         if(height > 10) {            
@@ -11,10 +14,47 @@ $(document).ready(function() {
         else {
             $('#hjfr-navbar-section').css({ backgroundColor: 'rgba(255, 255, 255, 0)' });
         }
+
+        if(is_mobile) {
+            windowScrollTop = $(window).scrollTop();
+            if(windowScrollTop > 400) {
+                $('#hjfr-main-contents-box-mobile').hide();
+            }
+            else {
+                $('#hjfr-main-contents-box-mobile').fadeIn();
+                //$('#hjfr-main-contents-box-mobile').slideDown();
+            }
+        }
     });
 
-    fullMain();
-    $(window).resize(function() { fullMain(); });
+    
+    if(is_mobile) {
+        $('#hjfr-main-section-pc').hide();
+        $('#hjfr-main-section-mobile').show();
+
+        $('#hjfr-main-section').css({
+            'background-image': 'url("")', 
+            'padding': 0
+        });
+
+        placeMainTextForMobile();
+    }
+    else {
+        fullMain();
+    }
+
+    placeMainTextForMobile();
+    $(window).resize(function() { 
+        if(is_mobile) {
+            placeMainTextForMobile();
+        }
+        else {
+            fullMain();
+        }
+        
+    });
+
+    
 });
 
 function fullMain() {
@@ -24,4 +64,26 @@ function fullMain() {
         minusHeight -= 14;
     }
     $('#hjfr-main').css({height: window.innerHeight - minusHeight });
+}
+
+function isMobile() {
+    var isRet = false;
+    var filter = "win16|win32|win64|mac";
+    if(navigator.platform) {
+        if(filter.indexOf(navigator.platform.toLowerCase()) < 0) {
+            isRet = true;
+        }
+    }
+
+    return isRet;
+}
+
+function placeMainTextForMobile() {
+    $('#hjfr-main-contents-box-mobile').css({
+        'position': 'fixed', 
+        //'top': Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + 'px', 
+        //'left': Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + 'px'
+        'top': ( (window.innerHeight / 2) - ($('#hjfr-main-contents-box-mobile').height() / 2) )+ 'px', 
+        'left': ( (window.innerWidth / 2) - ($('#hjfr-main-contents-box-mobile').width() / 2) ) + 'px', 
+    });
 }
