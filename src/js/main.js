@@ -4,7 +4,6 @@ function goGroupItem(item) {
 
 $(document).ready(function() {
     var is_mobile = isMobile();
-    is_mobile = true;
 
     $(window).scroll(function () {
         var height = $(document).scrollTop();
