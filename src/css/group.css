@@ -152,7 +152,7 @@
 #hjfr-sun-section-7 { background-image: url("../imgs/sub/sun/7.jpg"); background-size: cover; }
 
 
-/* 수처리 사업 - water */
+/* 폐화학물질 재처리(수처리) 사업 - water */
 #hjfr-water-section-1 { background-image: url("../imgs/sub/water/1.png"); background-size: cover; }
 
 #hjfr-water-section-2 { height: 16rem; position:Relative;}
@@ -297,7 +297,7 @@
   .hjfr-wood-section-img-box {background-repeat:no-repeat;background-position:center center; background-size:cover;}
   .hjfr-wood-section-img-box img {display:none !important;}
 
-  /* 수처리 */
+  /* 폐화학물질 재처리(수처리) */
   .bussiness_info_list {position:Relative;}
   #hjfr-water-section-2 {height:auto;}
   .bns_info_list {display:block;}
