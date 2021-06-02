@@ -1,5 +1,5 @@
 function goGroupItem(item) {
-    location.href = './' + item + '.html';
+    location.href = './' + item + '.php';
 }
 
 $(document).ready(function() {
