@@ -1,6 +1,6 @@
-<?php 
-  $page_name = 'index';
-  require_once('./fragment/header.php'); 
+<?php
+$page_name = 'index';
+require_once('./fragment/header.php');
 ?>
 
 <!-- #hjfr-main-section 메인 start -->
@@ -117,11 +117,21 @@
   <div class="container">
     <div class="history_section_w">
       <div class="history_section_inner">
+        <!-- 컬러값클래스 : bg_green01~04 / -->
+        <div class="history_section_box bg_green01">
+          <i class="hsb_dott"></i>
+          <strong class="hsb_date">2021.01</strong>
+          <span class="hsb_text">현대글로비스 협력사 등록</span>
+        </div>
         <div class="history_section_box bg_green04">
-          <!-- 컬러값클래스 : bg_green01~04 / -->
           <i class="hsb_dott"></i>
           <strong class="hsb_date">2020.03</strong>
-          <span class="hsb_text">모법남세자 표창 수상</span>
+          <span class="hsb_text">국세청장 모범납세자 표창 수상</span>
+        </div>
+        <div class="history_section_box bg_green03">
+          <i class="hsb_dott"></i>
+          <strong class="hsb_date">2019.12</strong>
+          <span class="hsb_text">법무부장관 표창 수상</span>
         </div>
         <div class="history_section_box bg_green03">
           <i class="hsb_dott"></i>
@@ -190,6 +200,11 @@
 
         <div class="history_section_box bg_green04">
           <i class="hsb_dott"></i>
+          <strong class="hsb_date">2006.12</strong>
+          <span class="hsb_text">환경부장관 표창 수상</span>
+        </div>
+        <div class="history_section_box bg_green04">
+          <i class="hsb_dott"></i>
           <strong class="hsb_date">2006.05</strong>
           <span class="hsb_text">"(주)한준에프알"로 상호변경</span>
         </div>
@@ -200,6 +215,11 @@
         </div>
         <div class="history_section_box bg_green02">
           <i class="hsb_dott"></i>
+          <strong class="hsb_date">2003.12</strong>
+          <span class="hsb_text">환경부장관 표창 수상</span>
+        </div>
+        <div class="history_section_box bg_green02">
+          <i class="hsb_dott"></i>
           <strong class="hsb_date">2003.10</strong>
           <span class="hsb_text">폐전주 재생골재가 혼합된 고강도콘크리트 배합 조성물 특허 출원 : <small class="hjfr-history-comment point_txt_green"><strong>특허 제10-0371446호</strong></small></span>
         </div>
@@ -207,6 +227,11 @@
           <i class="hsb_dott"></i>
           <strong class="hsb_date">2003.01</strong>
           <span class="hsb_text">폐전주를 재활용한 재생 근가 특허 출원 : <small class="hjfr-history-comment point_txt_green"><strong>특허 제10-0404495호</strong></small></span>
+        </div>
+        <div class="history_section_box bg_green01">
+          <i class="hsb_dott"></i>
+          <strong class="hsb_date">2002.06</strong>
+          <span class="hsb_text">환경부장관 표창 수상</span>
         </div>
         <div class="history_section_box bg_green01">
           <i class="hsb_dott"></i>
@@ -310,11 +335,11 @@
               <div class="col-12 hjfr-text-color-title">
                 <div class="col-12" style="padding-left: 0px;">한준에프알</div>
               </div>
-              <div class="col-12 hjfr-text-color-title" style="font-size: 1.4rem;">LNG 운송 사업</div>
+              <div class="col-12 hjfr-text-color-title" style="font-size: 1.4rem;">가스(LNG,수소) 및 에너지 사업</div>
               <div class="col-12">
                 <p class="hjfr-group-item-content">
-                  한국가스공사 LNG기지로부터 전국의 산업체, 항만 및 휴양시설에 탱크로리를 이용하여 액화천연가스(LNG)를 운송, 공급하고 있습니다.
-                  또한 특수장비(저상로우베드, 모듈, 롱트레일러 및 평판)을 구비하여 다양하고 특수한 운송분야의 운송경험을 가지고 있습니다.</p>
+                  한국가스공사 평택, 통영기지로부터 전국의 산업체, 항만 및 휴양시설에탱크로리를 이용하여 액화천연가스(LNG)를 운송, 공급하고 있습니다.
+                  또한 차세대 친환경 에너지원인 수소의 운송과 수소충전소 구축에도 적극 참여하고 있으며, LNG를 선박용 연료로 공급하는 LNG 벙커링 사업을 추진하고 있습니다.</p>
               </div>
               <div class="col-12">
                 <div class="hjfr-group-item-more" onclick="javascript:goGroupItem('lng');">더 알아보기 ></div>
