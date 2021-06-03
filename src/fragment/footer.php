@@ -18,4 +18,9 @@
 
 </div> <!-- .site-wrap -->
 
+<?php
+// mysqli_close($conn);
+// flush();
+?>
+
 <?php require_once('./fragment/common_scripts.php'); ?>

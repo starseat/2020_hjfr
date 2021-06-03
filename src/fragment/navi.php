@@ -20,7 +20,7 @@
                     <li><a href="wood.php" class="nav-link hjfr-nav-sub">규원에너지 - 목재 펠릿 사업</a></li>
                 </ul>
                 </li>
-                <li><a href="<?php if ($page_name != 'index') { echo './index.php'; } ?>#hjfr-notice-section" class="nav-link">공지사항</a></li>
+                <li><a href="./notice.php" class="nav-link <?php if($page_name == 'notice') { echo ' active'; } ?>">공지사항</a></li>
                 <li><a href="<?php if ($page_name != 'index') { echo './index.php'; } ?>#hjfr-map-section" class="nav-link">오시는 길</a></li>
         </ul>
     </nav>

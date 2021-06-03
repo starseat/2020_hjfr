@@ -1,5 +1,11 @@
 <?php require_once('./fragment/head.php'); ?>
 
+<?php
+// include('./common.php');
+// include('./db_conn.php');
+?>
+
+
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <div id="overlayer"></div>
     <div class="loader">
