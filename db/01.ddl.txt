@@ -1,0 +1,85 @@
+/*
+init
+
+create user hjfr_user@localhost identified by 'hjfr_pw';
+#select * from user;
+create database hjfrdb default character set utf8 COLLATE utf8_general_ci;
+GRANT ALL privileges ON hjfrdb.* TO hjfr_user@localhost;
+flush privileges;
+
+*/
+
+
+
+/**
+ * 회원
+ * - member_type:
+ *  + A: Admin
+ *  + M: Manager
+ *  + B: Basic
+ */
+CREATE TABLE members (
+	seq BIGINT NOT NULL AUTO_INCREMENT,
+    user_id VARCHAR(32) NOT NULL,    
+	email VARCHAR(64) NULL,
+	name VARCHAR(32) NULL DEFAULT NULL,
+	password VARCHAR(128) NOT NULL,
+	member_type CHAR(1) NOT NULL DEFAULT 'B',
+	created_at DATETIME NOT NULL DEFAULT now(),
+	updated_at DATETIME NOT NULL DEFAULT now(),
+	deleted_at DATETIME NULL DEFAULT NULL,
+	PRIMARY KEY (seq, user_id),
+	UNIQUE INDEX user_id (user_id)
+) COLLATE='utf8mb4_unicode_ci' ENGINE=InnoDB;
+
+
+/**
+ * 이미지
+ */
+CREATE TABLE images (
+	seq BIGINT NOT NULL AUTO_INCREMENT,
+    target_seq BIGINT NOT NULL, 
+    target_type VARCHAR(16) NOT NULL, 
+    sort TINYINT, 
+	file_name VARCHAR(128) NOT NULL, 
+	file_name_save VARCHAR(256) NOT NULL, 
+    upload_path VARCHAR(1024) NOT NULL, 
+    caption VARCHAR(1024), 
+	link VARCHAR(1024), 
+	storage_type VARCHAR(1) NOT NULL DEFAULT 'L', -- L: local, W: Web
+	image_type VARCHAR(1) NOT NULL DEFAULT 'I', -- I: image, V: video
+    created_at DATETIME NOT NULL DEFAULT now(),
+	PRIMARY KEY (`seq`, `target_seq`, `target_type` )
+) COLLATE='utf8mb4_unicode_ci' ENGINE=InnoDB;
+
+/**
+ * 파일
+ */
+CREATE TABLE files (
+	seq BIGINT NOT NULL AUTO_INCREMENT, 
+	target_seq BIGINT NOT NULL, 
+    target_type VARCHAR(16) NOT NULL,
+	sort TINYINT, 
+    file_name VARCHAR(256) NOT NULL, 
+	file_name_save VARCHAR(512) NOT NULL, 
+    upload_path VARCHAR(2048) NOT NULL, 
+    created_at DATETIME NOT NULL DEFAULT now(),
+	PRIMARY KEY (`seq`, `target_seq`, `target_type` )
+) COLLATE='utf8mb4_unicode_ci' ENGINE=InnoDB;
+
+/**
+ * 공지사항 등 게시판
+ *  - level: 1: 일반, 2: 중요, 3: 긴급
+ */
+CREATE TABLE boards (
+	seq BIGINT NOT NULL AUTO_INCREMENT, 
+    level TINYINT, 
+    type VARCHAR(16) NOT NULL,
+    title VARCHAR(512) NOT NULL,     
+	view_count INT NOT NULL DEFAULT 0, 
+	created_at DATETIME NOT NULL DEFAULT now(),
+	updated_at DATETIME NOT NULL DEFAULT now(),
+	deleted_at DATETIME NULL DEFAULT NULL, 
+    contents TEXT NOT NULL,
+	PRIMARY KEY (`seq` )
+) COLLATE='utf8mb4_unicode_ci' ENGINE=InnoDB;
