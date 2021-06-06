@@ -4,8 +4,6 @@
 #hjfr-nav-group { cursor: pointer; }
 #hjfr-nav-group > span.nav-link { padding-left: 20px; font-size: 20px; }
 
-.hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
-
 .hjfr-group-text-color { color: white; }
 .hjfr-group-text-color-green { color: #53898a; }
 .hjfr-group-text-color-gray { color:#777; }

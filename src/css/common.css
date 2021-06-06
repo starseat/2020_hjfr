@@ -15,6 +15,13 @@ body { font-family: 'NanumSquare', sans-serif; }
 .dropdown.arrow-top { border-top: 2px solid #287c7d !important; }
 .arrow-collapse.active {  color: #287c7d !important; }
 
+.hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
+
+.hjfr-footer-section-fixed {
+    /* position: fixed; */
+    /* bottom: -1520px; */
+}
+
 @media (max-width: 480px) {
 }
 

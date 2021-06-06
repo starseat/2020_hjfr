@@ -10,7 +10,7 @@
     -moz-box-sizing: border-box; /* Firefox  */
     -webkit-box-sizing: border-box; /* Safari */
     box-sizing: border-box; /* CSS3 Standard */ }
-.hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
+
 .hjfr-main-title { font-size: 3.2rem; margin-bottom: 0 !important; }
 .hjfr-main-title-extrabold { font-weight: 900 !important; }
 .hjfr-text-color-company { color: #3a6797}
