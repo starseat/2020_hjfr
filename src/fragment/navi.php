@@ -4,7 +4,7 @@
         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
             <li><a href="<?php if ($page_name != 'index') { echo './index.php'; } ?>#hjfr-greetings-section" class="nav-link">인사말</a></li>
             <li><a href="<?php if ($page_name != 'index') { echo './index.php'; } ?>#hjfr-history-section" class="nav-link">연혁</a></li>
-            <?php if ($page_name == 'index') { ?>
+            <?php if ($page_name == 'index' || $page_name == 'notice') { ?>
                 <li class="has-children">
                     <a href="#hjfr-group-section" class="nav-link">그룹소개</a>
                 <?php } else { ?>

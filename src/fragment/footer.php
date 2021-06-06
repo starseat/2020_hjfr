@@ -1,5 +1,5 @@
 <!-- #hjfr-footer-section start  -->
-<div class="footer py-5 text-center" id="hjfr-footer-section">
+<div class="footer py-5 text-center <?php if ($page_name == 'notice') { echo 'hjfr-footer-section-fixed'; } ?>" id="hjfr-footer-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

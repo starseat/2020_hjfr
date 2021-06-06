@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+
 $page_name = 'notice';
 require_once('./fragment/header.php');
 ?>
@@ -41,6 +44,16 @@ $paging_info = getPagingInfo($page, $total_count, $item_row_count, $page_block_c
         <div class="content_inner">
             <h2 class="content_title">공지사항</h2>
             <br>
+            
+            <?php
+            if (isset($_SESSION['is_login']) && !empty($_SESSION['is_login']) && $_SESSION['is_login'] == 1) {
+            ?>
+            <div style="text-align: right;">
+                <button class="btn btn btn-outline-dark" onclick="location.href='/admin/notice_edit.php'">글쓰기</button>
+            </div>
+            <br>
+            <?php }  ?>
+
             <table class="table table-hover table-hover-pointer">
                 <colgroup>
                     <col width="10%">
@@ -131,7 +144,7 @@ flush();
 
 <script>
     function getNoticeInfo(seq) {
-        location.href = './notice_detail.php?seq=' + seq;
+        location.href = './notice_view.php?seq=' + seq;
     }
 </script>
 
