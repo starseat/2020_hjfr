@@ -50,7 +50,7 @@ require_once('./fragment/header.php');
 <!-- #hjfr-disuse-section-3 start -->
 <div class="site-section hjfr-disuse-section-img-box" id="hjfr-disuse-section-3">
   <div class="container">
-    <img src="./imgs/sub/disuse/3.jpg" alt="폐전주" class="hjfr-disuse-section-img">
+    <img src="./imgs/sub/disuse/3.png" alt="폐전주" class="hjfr-disuse-section-img">
   </div>
 </div>
 <!-- #hjfr-disuse-section-3 end -->
@@ -115,7 +115,7 @@ require_once('./fragment/header.php');
 <!-- #hjfr-disuse-section-7 start -->
 <div class="site-section hjfr-disuse-section-img-box" id="hjfr-disuse-section-7">
   <div class="container">
-    <img src="./imgs/sub/disuse/7.jpg" alt="골재 생산 판매업" class="hjfr-disuse-section-img">
+    <img src="./imgs/sub/disuse/7.png" alt="골재 생산 판매업" class="hjfr-disuse-section-img">
   </div>
 </div>
 <!-- #hjfr-disuse-section-7 end -->
