@@ -137,6 +137,10 @@ require_once('./fragment/header.php');
           <i class="hsb_dott"></i>
           <strong class="hsb_date">2019.11</strong>
           <span class="hsb_text">(주)SPG 수소위탁운송 계약 체결</span>
+        </div>
+        <div class="history_section_box bg_green03">
+          <i class="hsb_dott"></i>
+          <strong class="hsb_date">2019.08</strong>
           <span class="hsb_text">2019 ~ 2023 한국가스공사 LNG 위탁운송용역 계약 (평택, 통영)</span>
           <span class="hsb_text">폐전주 재활용 재생골재를 이용한 습식 콘크리트 2차 제품 및 그 제조방법 특허 출원 : <small class="hjfr-history-comment point_txt_green"><strong>특허 제 10-2008742호</strong></small></span>
         </div>
@@ -164,7 +168,7 @@ require_once('./fragment/header.php');
         <div class="history_section_box bg_green02">
           <i class="hsb_dott"></i>
           <strong class="hsb_date">2018.03</strong>
-          <span class="hsb_text">(주)캠에로우-루보 인수</span>
+          <span class="hsb_text">(주)캠애로우-루보 인수</span>
         </div>
         <div class="history_section_box bg_green01">
           <i class="hsb_dott"></i>
@@ -376,11 +380,11 @@ require_once('./fragment/header.php');
           <div class="col-8">
             <div class="row mb-5">
               <div class="col-12 hjfr-text-color-title">
-                <div class="col-12" style="padding-left: 0px;">태림산업</div>
+                <div class="col-12" style="padding-left: 0px;">한준케미칼</div>
               </div>
-              <div class="col-12 hjfr-text-color-title" style="font-size: 1.4rem;">수처리 사업</div>
+              <div class="col-12 hjfr-text-color-title" style="font-size: 1.4rem;">폐화학물질 재처리 사업</div>
               <div class="col-12">
-                <p class="hjfr-group-item-content">태림산업은 수 처리/프로세스/환경약품 제조 및 판매 수처리 장치/설비 그리고 수 처리 플랜트 컨설팅과 OEM 사업을 하고 있습니다.</p>
+                <p class="hjfr-group-item-content">한준케미칼은 폐화학물질 재처리 사업뿐만 아니라, 수처리/프로세스/환경약품 제조 및 판매 수처리 장치/설비 그리고 수 처리 플랜트 컨설팅과 OEM 사업을 하고 있습니다.</p>
               </div>
               <div class="col-12">
                 <div class="hjfr-group-item-more" onclick="javascript:goGroupItem('water');">더 알아보기 ></div>
@@ -398,7 +402,7 @@ require_once('./fragment/header.php');
           <div class="col-8">
             <div class="row mb-5">
               <div class="col-12 hjfr-text-color-title">
-                <div class="col-12" style="padding-left: 0px;">켐에로우 루보</div>
+                <div class="col-12" style="padding-left: 0px;">켐애로우 루보</div>
               </div>
               <div class="col-12 hjfr-text-color-title" style="font-size: 1.4rem;">윤활유 사업</div>
               <div class="col-12">

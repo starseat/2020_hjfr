@@ -15,8 +15,8 @@
                     <li><a href="disuse.php" class="nav-link hjfr-nav-sub">불용자재 사업</a></li>
                     <li><a href="lng.php" class="nav-link hjfr-nav-sub">가스(LNG,수소) 및 에너지 사업</a></li>
                     <li><a href="sun.php" class="nav-link hjfr-nav-sub">태양광 발전 사업</a></li>
-                    <li><a href="water.php" class="nav-link hjfr-nav-sub">태림산업 - 수처리 사업</a></li>
-                    <li><a href="oil.php" class="nav-link hjfr-nav-sub">켐에로우 루보 - 윤활유 사업</a></li>
+                    <li><a href="water.php" class="nav-link hjfr-nav-sub">한준케미칼 - 폐화학물질 사업</a></li>
+                    <li><a href="oil.php" class="nav-link hjfr-nav-sub">켐애로우 루보 - 윤활유 사업</a></li>
                     <li><a href="wood.php" class="nav-link hjfr-nav-sub">규원에너지 - 목재 펠릿 사업</a></li>
                 </ul>
                 </li>

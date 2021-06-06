@@ -12,12 +12,12 @@ require_once('./fragment/header.php');
 
     <div class="row">
       <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-        <p class="hjfr-group-text-color hjfr-group-main-text-company"><i>태림산업</i></p>
-        <p class="hjfr-group-text-color hjfr-group-text-bold hjfr-group-main-text-business">수처리 사업</p>
-        <p class="hjfr-group-text-color hjfr-group-main-text-desc">
+        <p class="hjfr-group-text-color hjfr-group-main-text-company"><i>한준케미칼</i></p>
+        <p class="hjfr-group-text-color hjfr-group-text-bold hjfr-group-main-text-business">폐화학물질 재처리 사업</p>
+        <!-- <p class="hjfr-group-text-color hjfr-group-main-text-desc">
           주식회사 태림산업은 수 처리에 사용되는 장비와 설치, 수 처리 프로세스, 수처리 플랜트 컨설팅 & OEM 사업과 환경약품의 제조 및 판매까지
           다양한 수처리 종목의 사업을 하는 회사입니다.
-        </p>
+        </p> -->
       </div>
     </div>
 

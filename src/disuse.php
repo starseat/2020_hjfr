@@ -68,7 +68,7 @@ require_once('./fragment/header.php');
         <p class="hjfr-group-text-color hjfr-group-item-text-conts">
           <span class="hjfr-group-text-bold">한국전력 배전공사</span>에서 발생하는 <span class="hjfr-group-text-bold">폐플라스틱</span>과
           <span class="hjfr-group-text-bold">폴리머</span>를 <span class="hjfr-group-text-bold">수집, 운반, 처리</span>하여
-          <span class="hjfr-group-text-bold">플라스틱 펠렛</span> 및 <span class="hjfr-group-text-bold">한국전력 배전사용 봉인판, 친환경 재활용 플라스틱, 폴리머</span>
+          <span class="hjfr-group-text-bold">플라스틱 펠릿</span> 및 <span class="hjfr-group-text-bold">한국전력 배전사용 봉인판, 친환경 재활용 플라스틱, 폴리머</span>
           제품 등을 생산하여 판매하고 있습니다.
         </p>
       </div>
