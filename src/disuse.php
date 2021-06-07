@@ -83,7 +83,7 @@ require_once('./fragment/header.php');
 <!-- #hjfr-disuse-section-5 start -->
 <div class="site-section hjfr-disuse-section-img-box" id="hjfr-disuse-section-5">
   <div class="container">
-    <img src="./imgs/sub/disuse/5.jpg" alt="플라스틱" class="hjfr-disuse-section-img">
+    <img src="./imgs/sub/disuse/5.png" alt="플라스틱" class="hjfr-disuse-section-img">
   </div>
 </div>
 <!-- #hjfr-disuse-section-5 end -->
