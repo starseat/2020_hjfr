@@ -91,45 +91,6 @@ require_once('./fragment/header.php');
 </div>
 <!-- #hjfr-oil-section-4 end -->
 
-<!-- #hjfr-oil-section-5 start -->
-<div class="site-section" id="hjfr-oil-section-5">
-  <div class="container">
-
-    <div class="row hjfr-main-blank"></div>
-    <div class="row hjfr-main-blank"></div>
-
-    <div class="row">
-      <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-        <p class="hjfr-group-text-color hjfr-group-item-text-img-desc">주소 : 서울시 영등포구 경인로 775, 에이스하이테크시티 2동 602호</p>
-        <p class="hjfr-group-text-color hjfr-group-item-text-img-desc">연락처 : 02) 368-2020</p>
-      </div>
-    </div>
-
-    <div class="row hjfr-main-blank"></div>
-
-  </div>
-</div>
-<!-- #hjfr-oil-section-5 end -->
-
-
-<!-- #hjfr-footer-section start  -->
-<div class="footer py-5 text-center" id="hjfr-footer-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p class="mb-0">
-          서울시 영등포구 경인로 775, 2동 602호 (에이스하이테크시티)
-          &nbsp;&nbsp;
-          TEL : 02) 368 2000
-          &nbsp;&nbsp;
-          FAX : 02) 368 2019
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- #hjfr-footer-section end -->
-
 <?php require_once('./fragment/footer.php'); ?>
 
 <script src="./js/group.js"></script>
