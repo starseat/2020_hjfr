@@ -32,6 +32,7 @@ $paging_info = getPagingInfo($page, $total_count, $item_row_count, $page_block_c
 ?>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link href="./css/common.css" type="text/css" rel="stylesheet">
 <link href="./css/notice.css" type="text/css" rel="stylesheet">
 
 <!-- #hjfr-notice-section-1 start -->
@@ -44,14 +45,14 @@ $paging_info = getPagingInfo($page, $total_count, $item_row_count, $page_block_c
         <div class="content_inner">
             <h2 class="content_title">공지사항</h2>
             <br>
-            
+
             <?php
             if (isset($_SESSION['is_login']) && !empty($_SESSION['is_login']) && $_SESSION['is_login'] == 1) {
             ?>
-            <div style="text-align: right;">
-                <button class="btn btn btn-outline-dark" onclick="location.href='/admin/notice_edit.php'">글쓰기</button>
-            </div>
-            <br>
+                <div style="text-align: right;">
+                    <button class="btn btn btn-outline-dark" onclick="location.href='/admin/notice_edit.php'">글쓰기</button>
+                </div>
+                <br>
             <?php }  ?>
 
             <table class="table table-hover table-hover-pointer">
