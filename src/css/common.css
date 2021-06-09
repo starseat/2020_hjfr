@@ -18,9 +18,15 @@ body { font-family: 'NanumSquare', sans-serif; }
 .hjfr-main-blank { margin-top: 2rem; margin-bottom: 2rem; }
 
 .hjfr-footer-section-fixed {
-    /* position: fixed; */
-    /* bottom: -1520px; */
+    padding:0 !important;
 }
+
+/* 비밀번호변경,로그아웃 */
+.main-menu {position:Relative;}
+.userBtn_w {overflow:hidden; position:absolute; right:0; top:0;}
+.user_btn_link {float:left; padding:15px 10px; color:#686868;}
+.user_btn_link:hover {color:#407171;}
+
 
 @media (max-width: 480px) {
 }

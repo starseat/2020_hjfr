@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 $page_name = 'notice';
 require_once('./fragment/header.php');
 ?>

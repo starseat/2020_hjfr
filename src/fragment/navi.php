@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <div class="col-12 col-md-10 col-xl-9 main-menu">
     <nav class="site-navigation position-relative text-left" role="navigation">
 
@@ -24,4 +28,10 @@
                 <li><a href="<?php if ($page_name != 'index') { echo './index.php'; } ?>#hjfr-map-section" class="nav-link">오시는 길</a></li>
         </ul>
     </nav>
+    <?php if (isset($_SESSION['is_login']) && !empty($_SESSION['is_login']) && $_SESSION['is_login'] == 1) { ?>
+    <div class="userBtn_w">
+        <a href="/admin/change_password.php" class="user_btn_link"><strong>비밀번호 변경</strong></a>
+        <a href="/admin/action/logout.php" class="user_btn_link"><strong>로그아웃</strong></a>
+    </div>
+    <?php } ?>
 </div>

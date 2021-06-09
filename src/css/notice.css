@@ -38,6 +38,11 @@
     .page-link {padding:0.2rem .55rem;}
 }
 
+#hjfr-notice-section-1 {
+    /* min-height:calc(100vh - 5em); */
+    min-height:calc(100vh - 8em);
+}
+
 /**
 * notice_view
 */
